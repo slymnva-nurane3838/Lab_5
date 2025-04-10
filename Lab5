@@ -1,0 +1,13 @@
+#[0;7) intervalında dəyişən n sayda təsadüfi həqiqi ədəddən ibarət siyahının(massivin) elementlərinin hasilini hesablayan alqoritm tərtib etməli
+import random
+s=1
+b=[]
+n=10                                                                                        
+a=[0]*n
+k=0
+for i in range(n):                                                                  
+    a[i]=random.random()*7
+    b.append(a[i])
+for x in a:
+    s*=x
+print(s)
